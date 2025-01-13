@@ -1,0 +1,492 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    padding: 20px 100px;
+}
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+    font-size: 12px;
+}
+#nav1 img{
+    margin-left: 60px;
+}
+#nav2{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:290px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#nav2:hover{
+    background-color: #7FC9C2;
+    border:1px solid #7FC9C2;
+}
+#nav2 h1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#part1 img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100vh; 
+    background-image: url(p/GreenCircleWellness_HeroBanner.jpg);   
+}
+
+#part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+#part1 h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    z-index:99:
+}
+#part1 button{
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    margin-top: 60px;
+}
+#part1 button:hover{
+    background-color:#7FC9C2;
+    border: 2px solid #7FC9C2;
+}
+
+#part1 button h1{
+    font-size: 25px;
+}
+#part2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #E8F2E5;
+}
+#part2 img{
+    width:615px;
+    height: 444px;
+    margin-left: 30px;
+}
+#part2 #p1{
+    width: 50%;
+    height: 100%;
+   
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#part2 #p2{
+    width: 50%;
+    height: 100%;
+   
+    padding-top: 150px;
+    padding-left: 65px;
+}
+#part2 #p2 h1{
+    font-size: 50px;
+     color: rgb(123, 222, 222);
+}
+#part2 #p2 p{
+    margin-top: 10px;
+    width: 70%;
+    font-size: 20px;
+}
+#part2 #p2 button{
+    padding: 14px 18px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 40px;
+    margin-top: 35px;
+}
+#part2 #p2 button h1{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+#part3{
+    background-color: #E8F2E5;
+}
+#part3 #p1{
+    background-color: #E8F2E5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#part3 #p1 h1{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+}
+#part3 #p2{
+    margin-top: 100px;
+    background-color: #E8F2E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#part3 #info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#part3 #info h1{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#part3 #p3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+#part3 #p3 button{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background: transparent;
+    margin-top: 120px;
+}
+#part3 #p3 button h1{
+    font-weight: 400;
+}
+
+#part4{
+    background-color: #78976f;
+    padding-top: 70px;
+}
+#part4 #p1{
+    background-color:#78976f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#part4 #p1 h1{
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 500;
+    color: #E8F2E5;
+}
+#part4 #p1 h4{
+    color: #E8F2E5;
+    font-size: 20px;
+}
+#part5{
+    background-color: #78976f;
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+}
+#part5 #p1{
+    width: 30%;
+}
+#part5 #p2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#part5 #p3{
+    width: 30%;
+}
+#part5 #p2 img{
+    width: 95%;
+}
+#pp1,#pp2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pp1 p,#pp2 p{
+      width: 60%;
+      color: #E8F2E5;
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 19px;
+}
+#pp2{
+    padding-top: 180px ;
+    padding-bottom: 70px;
+}
+#pp1 h3,#pp2 h3{
+    margin-top: 20px;
+    color: #E8F2E5;
+}
+#part6{
+    background-color: #E8F2E5;
+}
+#part6 #pp6{
+    padding-top: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#part6 #pp6 h1{
+    font-size: 55px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+#part7{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 30px;
+    padding-right:30px ;
+    background-color: #E8F2E5;
+    padding-top: 30px;
+}
+#part7 h3{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+#part7 h2{
+    margin-left: 35px;
+}
+#part7 h1{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+#pp7{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F2E5;
+}
+#pp7 button{
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    margin-top: 60px;
+}
+#pp7 button h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+#ppp7{
+    background-color: #E8F2E5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+#ppp7 h1{
+     color: rgb(135, 205, 205);
+     font-size: 150px;
+}
+#part8{
+    background-color: #E8F2E5;
+    display: flex;
+}
+#part8 #p2{
+    padding-top:250px;
+    padding-left: 130px;
+    padding-right: 30px;
+}
+#part8 #p2 h3{
+    width: 85%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+#part8 #p2 h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#pp8{
+   
+    background-color: #E8F2E5;
+}
+#pp8 button{
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    margin-top: 60px;
+}
+#pp8 button h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+#part9{
+    background-color: #E8F2E5;
+    display:flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#part9 #p1{
+    padding-top: 140px;
+    padding-left: 100px;
+}
+#part9 #p1 h4{
+    width: 90%;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#part9 #p1 h1{
+    font-size: 65px;
+}
+#part10{
+    display:flex;
+    justify-content:space-between;
+    background-color:  rgb(184, 207, 207);
+    height: 90vh;
+}
+#part10 #p2{
+    height: 90vh;
+}
+#part10 #p2 img{
+    height: 100%;
+    width: 720px;
+}
+#part10 #p1{
+    padding-left: 150px;
+    padding-top: 150px;
+
+}
+#part10 #p1 h1{
+    font-size: 85px;
+    font-weight: 600;
+}
+#pp10{
+   
+}
+#pp10 button{
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    margin-top: 60px;
+}
+#pp10 button h1{
+    font-size: 25px;
+    font-weight: 100;
+}
+#part11{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #78976f;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    border-width: 80%;
+}
+#part12{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#78976f;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+#part12 #b1 h1{
+    color: #E8F2E5;
+}
+#part12 #bb12{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+#part12 #bb12 #bb1 h2,
+#part12 #bb12 #bb2 h2
+{
+    margin-top: 40px;
+}
+#part12 #b2{
+   padding-top: 120px;
+    
+}
+#part12 #b2 #bb1 h2{
+    margin-top: 40px;
+}
+#b3 {
+    padding-top: 120px;
+}
+#b2 h1,#b3 h1{
+    color: #E8F2E5;
+}
+#logos{
+    display: flex;
+    
+    margin-top: 90px;
+    gap:15px
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #78976f;
+   padding-top: 20px;
+   border-top: 2px solid black;
+}
+footer h3{
+    margin-top: 20px;
+    font-weight: 700;
+}
+@media (max-width:600px) {
+    main{
+        width: 100%;
+        height: 100%;
+    }
+}}
+#part2 #p2 button:hover{
+    background-color: #7FC9C2;
+}#part3 #p3 button:hover{
+    background-color: #7FC9C2;
+}#pp7 button:hover{
+    background-color: #7FC9C2;
+}#pp10 button:hover{
+    background-color: #7FC9C2;
+}
+#pp8 button:hover{
+    background-color: #7FC9C2;
+}
+#part2 #p2 button:hover{
+    background-color: #7FC9C2;
+}
